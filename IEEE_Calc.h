@@ -10,4 +10,4 @@ union binaryForm
 	unsigned char byte[4];
 };
 
-void showBinaryForm(float x);
+void showBinaryForm(float x, int &result);

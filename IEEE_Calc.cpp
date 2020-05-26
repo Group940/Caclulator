@@ -1,10 +1,9 @@
 #include "IEEE_Calc.h"
 
-void showBinaryForm(float x)
+void showBinaryForm(float x, int &result)
 {
 	binaryForm b;
-	b.number = x;
-	int result = 0;
+	b.number = x;	
 
 	// unsigned char *ptr = reinterpret_cast<unsigned char *>(&num);
 
