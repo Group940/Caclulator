@@ -52,7 +52,7 @@ System::Void Practice::MyForm::button1_Click(System::Object^ sender, System::Eve
 
 	s = string(output);
 	String^ str = marshal_as<String^>(s);
-	if (dec_number > 0)
+	if (dec_number >= 0)
 	{
 		textBoxOutput->Text = str;
 	}
@@ -213,7 +213,7 @@ System::Void Practice::MyForm::button_plus_Click(System::Object^ sender, System:
 
 	string s = string(output);
 	String^ S = marshal_as<String^>(s);
-	if (result > 0)
+	if (result >= 0)
 	{
 		textBoxOutput->Text = S;
 	}
@@ -249,7 +249,7 @@ System::Void Practice::MyForm::button_Minus_Click(System::Object^ sender, System
 
 	string s = string(output);
 	String^ S = marshal_as<String^>(s);
-	if (result > 0)
+	if (result >= 0)
 	{
 		textBoxOutput->Text = S;
 	}
